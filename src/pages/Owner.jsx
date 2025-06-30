@@ -1,10 +1,13 @@
 export default function Owner() {
+  const mail = "mailto:mario.1698.mg@gmail.com";
  return (
     <div className='container'>
-      <h1>Owner Page</h1>
-      <p>This is the owner page where you can manage the restaurant.</p>
-      <p>Here you can add, edit, or remove pizzas from the menu.</p>
-      <p>Use the navigation menu to access different sections.</p>
+      <h1>Mario Ramos Garcia</h1>
+    
+      <a href={mail} className='btn btn-primary'>Contact me</a  >
+      <p>
+        Soy un apasionado de la programación y el desarrollo web. Me encanta crear aplicaciones que mejoren la experiencia del usuario y resuelvan problemas reales.    
+      </p>
       
     </div>
   );
