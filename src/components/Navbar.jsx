@@ -7,13 +7,13 @@ export default function Navbar() {
         <li>
           <Link className={style["link-styles"]} to="/">Home</Link>
         </li>
-         <li>
-          <Link className={style["link-styles"]} to="/">Add New Pizza</Link>
-        </li>
+       
         <li>
           <Link className={style["link-styles"]} to="/Owner">Owner</Link>
         </li>
+
       </ul>
+      <hr />
       <br />
       <br />
     </nav>

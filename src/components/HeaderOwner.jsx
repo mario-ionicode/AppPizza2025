@@ -1,4 +1,4 @@
-export default function Header() {
+export default function HeaderOwner() {
 
     const headerStyle ={
        color: "#252525",
@@ -22,9 +22,3 @@ export default function Header() {
     </header> 
   )
 }
-/**
- * componente card con 
- * imagen
- * una parte de texto donde va a ir nombre
- * 2 links, uno a github y uo a linkedin
- */

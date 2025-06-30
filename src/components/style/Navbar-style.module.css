@@ -19,3 +19,10 @@ ul{
   text-decoration: underline;
   text-decoration-color: #edc84b;
 }
+hr{
+  width: 100%;
+  height: 1px;
+  background-color: #edc84b;
+  border: none;
+  margin-top: 10px;
+}
